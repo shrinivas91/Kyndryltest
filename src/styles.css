@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sideContainer {
+  background: #1c1c1c;
+  border-right: 1px solid #1c1c1c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8%;
+  height: 100%;
+  padding-top: 1%;
+}
+
+.sideIcon {
+  fill: #9a9a9a;
+  width: 100%;
+  height: 8%;
+  margin: 12% 0;
+}
+
+.topContainer {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 92%;
+  height: 10%;
+}
+
+.topButton {
+  display: inline-flex;
+  height: 100%;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.71rem;
+  border: none;
+  outline: none;
+  cursor: default;
+  color: inherit;
+}
+
+.bodyContainer {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  width: 92%;
+  height: 90%;
+  overflow: hidden;
+}
